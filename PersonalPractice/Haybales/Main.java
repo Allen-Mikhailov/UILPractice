@@ -11,7 +11,7 @@ public class Main {
         for (int i = 0; i < ranges; i++)
         {
             rangeStarts[i] = (int) (Math.random()*range);
-            rangeEnds[i] = (int) (Math.random()*rangeStarts[i]-range);
+            rangeEnds[i]   = (int) (Math.random()*rangeStarts[i]-range);
         }
     }
 
